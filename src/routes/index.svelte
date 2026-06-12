@@ -12,7 +12,7 @@
 
 <div class="issues">
     {#each issues as issue}
-        <a href="/{issue.id}" class="issue">
+        <a href="{issue.id}" class="issue">
             <h1>{issue.title} (#{issue.id})</h1>
             <p>{issue.author.login}</p>
             <ul>
