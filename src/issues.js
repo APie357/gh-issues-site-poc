@@ -1,9 +1,9 @@
-import { owner, repo } from "./config.js";
+import { owner, repo, githubKey } from "./config.js";
 import { Octokit } from "octokit";
 
-// theoretically you could have a private repo and
-// use a readonly api key for only that repo
-const octokit = new Octokit({});
+const octokit = new Octokit({
+  auth: githubKey,
+});
 
 export class Issue {
   constructor(data) {
