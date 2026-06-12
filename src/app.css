@@ -4,3 +4,24 @@
   font-family: sans-serif;
 }
 
+.issues {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.issue {
+  color: #fff;
+  text-decoration: none;
+  background: #444;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.issue:hover {
+  background: #555;
+}
+
+.issue * {
+  margin: 0;
+}
+

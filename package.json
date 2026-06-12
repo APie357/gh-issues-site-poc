@@ -15,6 +15,8 @@
     "vite": "^8.0.12"
   },
   "dependencies": {
+    "@humanspeak/svelte-markdown": "^1.6.0",
+    "octokit": "^5.0.5",
     "sv-router": "^0.17.0"
   }
 }
